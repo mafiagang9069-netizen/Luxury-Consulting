@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- EDIT: Page Title & SEO Meta -->
+  <title>Aurelia &amp; Vance — Luxury Strategic Advisory</title>
+  <meta name="description" content="Discreet executive advisory for corporate transformation, private capital allocation, and family office governance." />
+
+  <!-- Google Fonts: Cormorant Garamond & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Centered Luxury Editorial Header -->
+  <header class="lux-header" id="top">
+    <div class="container lux-nav-wrap">
+      <nav class="lux-nav-left" aria-label="Primary left navigation">
+        <a href="#philosophy">Philosophy</a>
+        <a href="#practices">Practices</a>
+        <a href="#mandates">Mandates</a>
+      </nav>
+
+      <!-- EDIT: Monogram & Firm Name -->
+      <a href="#top" class="lux-brand" aria-label="Aurelia and Vance Home">
+        <span class="lux-crest" aria-hidden="true">AV</span>
+        <span class="lux-wordmark">AURELIA &amp; VANCE</span>
+      </a>
+
+      <div class="lux-nav-right">
+        <a href="#figures" class="hide-mobile">Credentials</a>
+        <a href="#consultation" class="lux-cta-link">Private Inquiry</a>
+        <button class="lux-burger" id="luxBurger" aria-label="Toggle menu" aria-expanded="false" aria-controls="luxMobileMenu">
+          Menu
+        </button>
+      </div>
+    </div>
+
+    <div class="lux-mobile-menu" id="luxMobileMenu" hidden>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#practices">Practices</a>
+      <a href="#mandates">Mandates</a>
+      <a href="#figures">Credentials</a>
+      <a href="#consultation">Private Inquiry</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Full-Screen Architectural Hero -->
+    <section class="lux-hero">
+      <div class="lux-hero-bg">
+        <!-- EDIT: Replace hero boardroom image in assets/ -->
+        <img src="assets/hero-luxury-boardroom.jpg" alt="Quiet luxury architectural executive boardroom overlooking a twilight skyline" width="1440" height="900" />
+        <div class="lux-scrim" aria-hidden="true"></div>
+      </div>
+
+      <div class="container lux-hero-content">
+        <p class="lux-kicker">ZÜRICH &bull; LONDON &bull; NEW YORK</p>
+        <!-- EDIT: Hero Headline -->
+        <h1>Clarity at the highest tier of <em>decisive leadership.</em></h1>
+        <p class="lux-hero-sub">
+          An independent partner-led advisory guiding founders, boards, and multi-generational family offices through inflection points of lasting consequence.
+        </p>
+        <div class="lux-hero-actions">
+          <a href="#consultation" class="lux-btn lux-btn-gold">Request Private Briefing</a>
+          <a href="#practices" class="lux-btn lux-btn-ghost">Explore Advisory</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Editorial Manifesto -->
+    <section class="lux-section" id="philosophy">
+      <div class="container philosophy-grid">
+        <div class="philosophy-media">
+          <div class="gold-frame">
+            <!-- EDIT: Replace image inside assets/ -->
+            <img src="assets/advisory-study.jpg" alt="Private executive study room with tailored leather seating and architectural lighting" width="760" height="920" />
+          </div>
+          <p class="media-caption">Private Counsel &bull; Est. Sample Advisory Practice</p>
+        </div>
+
+        <div class="philosophy-copy">
+          <span class="lux-label">01 / THE COUNSEL STANDARD</span>
+          <h2>Unconflicted judgment in an era of noise.</h2>
+          <p class="drop-cap">
+            Conventional consultancies deploy junior analysts and templated frameworks. We operate strictly as senior principals—accepting fewer than twelve active mandates per year to safeguard depth, confidentiality, and speed.
+          </p>
+          <p>
+            Whether navigating cross-border acquisitions, succession architecture, or brand repositioning at the ultra-high-net-worth tier, our counsel remains fiercely independent and aligned solely with enduring enterprise value.
+          </p>
+
+          <blockquote class="lux-quote">
+            “True strategic advantage is rarely loud. It is architectural, patient, and executed before the market recognizes the shift.”
+            <footer>— Sample Principal Statement (Editable)</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Interactive Tabbed Practices -->
+    <section class="lux-section lux-surface" id="practices">
+      <div class="container">
+        <div class="lux-section-head">
+          <span class="lux-label">02 / ADVISORY PILLARS</span>
+          <h2>Four disciplines. One senior partner table.</h2>
+        </div>
+
+        <div class="practice-tabs" role="tablist" aria-label="Advisory Practice Areas">
+          <button class="practice-tab is-active" role="tab" aria-selected="true" data-tab="strategy">Corporate Strategy</button>
+          <button class="practice-tab" role="tab" aria-selected="false" data-tab="capital">Capital &amp; M&amp;A</button>
+          <button class="practice-tab" role="tab" aria-selected="false" data-tab="family">Family Office</button>
+          <button class="practice-tab" role="tab" aria-selected="false" data-tab="board">Board Governance</button>
+        </div>
+
+        <div class="practice-panels">
+          <article class="practice-panel is-active" id="panel-strategy" role="tabpanel">
+            <div class="panel-grid">
+              <div>
+                <span class="panel-num">PILLAR I</span>
+                <h3>Corporate Strategy &amp; Market Repositioning</h3>
+                <p>Precision growth architecture for heritage brands, luxury houses, and category-defining B2B enterprises entering new geographies or margin tiers.</p>
+              </div>
+              <ul class="panel-list">
+                <li>Portfolio rationalization &amp; pricing power architecture</li>
+                <li>Market entry sequencing across EMEA &amp; North America</li>
+                <li>Executive leadership alignment &amp; operating cadence</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="practice-panel" id="panel-capital" role="tabpanel" hidden>
+            <div class="panel-grid">
+              <div>
+                <span class="panel-num">PILLAR II</span>
+                <h3>Transaction Readiness &amp; M&amp;A Counsel</h3>
+                <p>Commercial diligence, pre-exit narrative structuring, and post-merger cultural integration tailored for founder-owned and sponsor-backed transitions.</p>
+              </div>
+              <ul class="panel-list">
+                <li>12-month pre-liquidity valuation uplift roadmap</li>
+                <li>Buy-side commercial thesis validation</li>
+                <li>Day-100 executive integration office setup</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="practice-panel" id="panel-family" role="tabpanel" hidden>
+            <div class="panel-grid">
+              <div>
+                <span class="panel-num">PILLAR III</span>
+                <h3>Private Family Office Architecture</h3>
+                <p>Discreet structuring of direct private investments, next-generation stewardship charters, and bespoke operational governance.</p>
+              </div>
+              <ul class="panel-list">
+                <li>Multi-generational governance &amp; succession charters</li>
+                <li>Direct operating company oversight frameworks</li>
+                <li>Philanthropic &amp; legacy foundation strategy</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="practice-panel" id="panel-board" role="tabpanel" hidden>
+            <div class="panel-grid">
+              <div>
+                <span class="panel-num">PILLAR IV</span>
+                <h3>Special Situations &amp; Board Advisory</h3>
+                <p>Confidential sounding-board counsel for CEOs and chairs managing leadership transitions, activist scrutiny, or rapid structural turnaround.</p>
+              </div>
+              <ul class="panel-list">
+                <li>Confidential CEO &amp; Chair executive sounding board</li>
+                <li>Crisis communication &amp; stakeholder alignment</li>
+                <li>Board composition &amp; effectiveness reviews</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Restrained Figures Strip -->
+    <section class="lux-figures" id="figures" aria-label="Representative firm metrics">
+      <div class="container figures-grid">
+        <div class="figure-item">
+          <strong>$4.8B+</strong>
+          <span>Sample Transaction Value Advised*</span>
+        </div>
+        <div class="figure-item">
+          <strong>12</strong>
+          <span>Maximum Active Mandates Yearly</span>
+        </div>
+        <div class="figure-item">
+          <strong>18 Yrs</strong>
+          <span>Average Partner Tenure*</span>
+        </div>
+        <div class="figure-item">
+          <strong>100%</strong>
+          <span>Principal-Led Confidentiality</span>
+        </div>
+      </div>
+      <p class="container figures-note">*Sample template benchmarks — customize with your firm’s verified credentials.</p>
+    </section>
+
+    <!-- Confidential Mandate Dossier Accordion -->
+    <section class="lux-section" id="mandates">
+      <div class="container mandates-wrap">
+        <div class="lux-section-head">
+          <span class="lux-label">03 / REPRESENTATIVE ENGAGEMENTS (SAMPLE)</span>
+          <h2>Engagement models tailored to discretion.</h2>
+        </div>
+
+        <div class="dossier-list">
+          <article class="dossier-item">
+            <button class="dossier-trigger" type="button" aria-expanded="true">
+              <span class="dossier-title">Retained Principal Counsel</span>
+              <span class="dossier-tag">6–12 Month Partnership</span>
+            </button>
+            <div class="dossier-body">
+              <p>Continuous access to two managing partners for board preparation, strategic decision modeling, and confidential C-suite alignment. Ideal for founders post-Series C or newly appointed CEOs.</p>
+            </div>
+          </article>
+
+          <article class="dossier-item">
+            <button class="dossier-trigger" type="button" aria-expanded="false">
+              <span class="dossier-title">90-Day Strategic Turnaround &amp; Margin Reset</span>
+              <span class="dossier-tag">Fixed-Scope Sprint</span>
+            </button>
+            <div class="dossier-body" hidden>
+              <p>Focused diagnostic and execution blueprint addressing unit profitability, pricing tier architecture, and leadership accountability across complex business units.</p>
+            </div>
+          </article>
+
+          <article class="dossier-item">
+            <button class="dossier-trigger" type="button" aria-expanded="false">
+              <span class="dossier-title">Pre-Exit Narrative &amp; Diligence Preparation</span>
+              <span class="dossier-tag">Transaction Advisory</span>
+            </button>
+            <div class="dossier-body" hidden>
+              <p>Collaborative preparation of investment memoranda, commercial proof points, and management presentation rehearsals prior to institutional buyer engagement.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Private Consultation Form -->
+    <section class="lux-section lux-surface" id="consultation">
+      <div class="container consult-container">
+        <div class="consult-card">
+          <div class="consult-head">
+            <span class="lux-label">04 / PRIVATE CORRESPONDENCE</span>
+            <h2>Initiate a confidential conversation.</h2>
+            <p>All inquiries are reviewed directly by a Managing Partner within one business day.</p>
+          </div>
+
+          <!--
+            FORM INTEGRATION GUIDE:
+            Static HTML validation runs in Demo Mode. Replace action="#" with your Formspree,
+            Basin, or Netlify Forms endpoint to receive live consultation requests.
+          -->
+          <form class="lux-form" id="luxForm" action="#" method="POST" novalidate>
+            <div class="lux-field-row">
+              <div class="lux-field">
+                <label for="luxName">Principal Name *</label>
+                <input type="text" id="luxName" name="name" placeholder="Evelyn Laurent" required />
+              </div>
+              <div class="lux-field">
+                <label for="luxOrg">Organization / Office *</label>
+                <input type="text" id="luxOrg" name="organization" placeholder="Laurent Holdings" required />
+              </div>
+            </div>
+
+            <div class="lux-field-row">
+              <div class="lux-field">
+                <label for="luxEmail">Private Email *</label>
+                <input type="email" id="luxEmail" name="email" placeholder="e.laurent@domain.com" required />
+              </div>
+              <div class="lux-field">
+                <label for="luxTopic">Mandate Focus</label>
+                <select id="luxTopic" name="focus">
+                  <option value="Corporate Strategy">Corporate Strategy</option>
+                  <option value="Capital & M&A">Capital &amp; M&amp;A</option>
+                  <option value="Family Office">Family Office Governance</option>
+                  <option value="Board Counsel">Board &amp; CEO Counsel</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="lux-field">
+              <label for="luxBrief">Brief Context (Optional NDA Available)</label>
+              <textarea id="luxBrief" name="message" rows="3" placeholder="Outline your timeline and objectives..."></textarea>
+            </div>
+
+            <button type="submit" class="lux-btn lux-btn-gold lux-btn-full">Submit Private Inquiry</button>
+            <p class="lux-feedback" id="luxFeedback" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="lux-footer">
+    <div class="container lux-footer-inner">
+      <p>&copy; <span id="luxYear">2026</span> Aurelia &amp; Vance Advisory. Discretion Assured.</p>
+      <div class="lux-footer-links">
+        <a href="#philosophy">Philosophy</a>
+        <a href="#practices">Practices</a>
+        <a href="#mandates">Mandates</a>
+        <a href="#consultation">Inquiry</a>
+      </div>
+      <p class="lux-credit">Website Template by PixelNestByNS</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
